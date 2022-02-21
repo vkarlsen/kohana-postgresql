@@ -8,7 +8,7 @@
  * @copyright   (c) 2010 Chris Bandy
  * @license     http://www.opensource.org/licenses/isc-license.txt
  */
-class Kohana_Database_PostgreSQL extends Database
+class Kohana_Database_Postgresql extends Database
 {
 	protected $_version;
 
@@ -215,7 +215,7 @@ class Kohana_Database_PostgreSQL extends Database
 			$this->last_query = $sql;
 
 			if ($type === Database::SELECT)
-				return new Database_PostgreSQL_Result($result, $sql, $as_object, $params, $rows);
+				return new Database_Postgresql_Result($result, $sql, $as_object, $params, $rows);
 
 			if ($type === Database::INSERT)
 			{

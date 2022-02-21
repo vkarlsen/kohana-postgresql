@@ -8,7 +8,7 @@
  * @copyright   (c) 2010 Chris Bandy
  * @license     http://www.opensource.org/licenses/isc-license.txt
  */
-class Kohana_Database_PostgreSQL_Result extends Database_Result
+class Kohana_Database_Postgresql_Result extends Database_Result
 {
 	public function __construct($result, $sql, $as_object = FALSE, $params = NULL, $total_rows = NULL)
 	{
