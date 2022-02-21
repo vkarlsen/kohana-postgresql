@@ -1,6 +1,8 @@
 
-A [PostgreSQL] driver for [Kohana]'s [Database] module.
+A [PostgreSQL] driver for [Kohana]'s [Database] module, modified to work
+with Koseven.
 
-[PostgreSQL]: http://www.postgresql.org/
-[Kohana]:     http://kohanaframework.org/
-[Database]:   http://github.com/kohana/database
+[PostgreSQL]: https://www.postgresql.org/
+[Kohana]:     https://kohanaframework.org/
+[Database]:   https://github.com/kohana/database
+[Koseven]:    https://koseven.dev
