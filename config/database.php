@@ -4,7 +4,7 @@ return array
 (
 	'postgresql' => array
 	(
-		'type'       => 'PostgreSQL',
+		'type'       => 'postgresql',
 		'connection' => array(
 			/**
 			 * There are two ways to define a connection for PostgreSQL:
