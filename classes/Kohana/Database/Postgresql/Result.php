@@ -82,6 +82,7 @@ class Kohana_Database_Postgresql_Result extends Database_Result
 	/**
 	 * SeekableIterator: seek
 	 */
+	#[\ReturnTypeWillChange]
 	public function seek($offset)
 	{
 		if ( ! $this->offsetExists($offset))
@@ -95,6 +96,7 @@ class Kohana_Database_Postgresql_Result extends Database_Result
 	/**
 	 * Iterator: current
 	 */
+	#[\ReturnTypeWillChange]
 	public function current()
 	{
 		if ( ! $this->offsetExists($this->_current_row))
